@@ -13,7 +13,7 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
-    repositories.mavenCentral()
+     repositories.mavenCentral()
 //    repositories.google()
 //    repositories.maven("https://my.location/repo") {
 //        credentials.username = "..."
