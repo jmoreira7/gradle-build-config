@@ -3,7 +3,7 @@ plugins {
 }
 
 application {
-    mainClass.set("com.jmozkji.example.MyAplication")
+    mainClass.set("com.jmozkji.example.MyApplication")
 }
 
 dependencies {
