@@ -28,3 +28,12 @@ tasks.register<Zip>("bundle") {
 tasks.build {
     dependsOn(tasks.named("bundle"))
 }
+
+    // A task registered without type will be a lifecycle task.
+    // Lifecycle tasks are tasks with no action.
+tasks.register("buildAll") {
+    description = "Builds even more!"
+
+    dependsOn(tasks.build)
+    dependsOn(tasks.named("countJars"))
+}
